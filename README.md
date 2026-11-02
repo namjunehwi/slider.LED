@@ -7,7 +7,7 @@
 
 <br><br>첫번째로, 기존의 p5.js 코드에서 15~25번 라인을 추가했습니다. 슬라이더를 생성하고 슬라이더를 세로로 만들어야 하기 때문에 기준점을 잡고 -90도를 회전시켜서 세로로 만들었습니다. 슬라이더의 값을 serial 통신을 통해 PWM:(value) 형식으로 아두이노로 데이터를 전송합니다. 추가적으로 41번 라인에서 text에 PWM:값을 추가해줍니다.
 
-<br><br> 아두이노 코드는 7번과 180~183번 라인을 추가했습니다. 7번 라인에서는 3번 핀을 OUTPUT으로 설정해주고, 180~183번 라인에서는 3번 핀과 연결된 LED를 analogWrite을 통해 밝기를 조절합니다. p5.js에서 serial통신으로 PWM:(value)와 같이 문자열로 보내기 때문에 아두이노에서 이 문자열을 정수로 바꿀 필요가 있습니다. 따라서 command의 4자리가 "PWM:"과 같다면 command의 4번 인덱스부터 문자열을 정수로 바꾸는 atoi명령어를 사용해서 int bright에 저장합니다. 이 bright값이 analogWrite를 통해 LED의 밝기가 됩니다.
+<br><br> 아두이노 코드는 7번과 180 ~ 183번 라인을 추가했습니다. 7번 라인에서는 3번 핀을 OUTPUT으로 설정해주고, 180 ~ 183번 라인에서는 3번 핀과 연결된 LED를 analogWrite을 통해 밝기를 조절합니다. p5.js에서 serial통신으로 PWM:(value)와 같이 문자열로 보내기 때문에 아두이노에서 이 문자열을 정수로 바꿀 필요가 있습니다. 따라서 command의 4자리가 "PWM:"과 같다면 command의 4번 인덱스부터 문자열을 정수로 바꾸는 atoi명령어를 사용해서 int bright에 저장합니다. 이 bright값이 analogWrite를 통해 LED의 밝기가 됩니다.
 
 https://github.com/user-attachments/assets/07e612a6-f353-4845-a816-658ad43ff628
 
