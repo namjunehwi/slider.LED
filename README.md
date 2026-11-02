@@ -9,6 +9,7 @@
 
 <br><br> 아두이노 코드는 7번과 180~ 183번 라인을 추가했습니다. 7번 라인에서는 PWM 3번 핀을 OUTPUT으로 설정해주고, 180~ 183번 라인에서는 PWM 3번 핀과 연결된 LED를 analogWrite을 통해 밝기를 조절합니다. p5.js에서는 serial통신으로 PWM:(value)와 같이 문자열로 값을 보내기 때문에 아두이노에서 이 문자열을 정수로 바꿀 필요가 있습니다. 따라서 command의 4자리까지가 "PWM:"과 같다면 atoi명령어를 사용하여 command의 4번 인덱스부터 문자열을 정수로 바꾸어서 int bright에 저장합니다. 이 bright값이 analogWrite를 통해 LED의 밝기가 됩니다.
 
-<br>https://github.com/user-attachments/assets/07e612a6-f353-4845-a816-658ad43ff628
+<br>
+https://github.com/user-attachments/assets/07e612a6-f353-4845-a816-658ad43ff628
 
 https://github.com/user-attachments/assets/c5fe73d8-9e52-4cd5-a48b-f3178b52c98f
