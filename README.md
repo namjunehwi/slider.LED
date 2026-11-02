@@ -4,7 +4,7 @@
 
 아래의 회로도와 같은 회로를 사용했습니다. 강의 시간에 사용한 회로에서 추가적으로 PWM 3번 핀에 LED를 연결하였습니다.
 이는 p5.js에서 슬라이더를 활용해 PWM 3번 핀에 연결한 LED의 밝기를 조절하기 위함입니다.
-<img width="834" height="578" alt="image" src="https://github.com/user-attachments/assets/6f59235b-497e-45b2-8512-ac1bc216b19c" />
+<img width="434" height="328" alt="image" src="https://github.com/user-attachments/assets/6f59235b-497e-45b2-8512-ac1bc216b19c" />
 
 
 
