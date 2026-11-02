@@ -2,7 +2,11 @@
 
 아두이노와 P5.js를 이용하여 슬라이더로 LED 밝기를 조정하는 프로젝트를 진행했습니다.
 
-<img width="844" height="587" alt="image" src="https://github.com/user-attachments/assets/6d1cb40c-251b-4d5b-b43e-25507c3c5f29" />
+아래의 회로도와 같은 회로를 사용했습니다. 강의 시간에 사용한 회로에서 추가적으로 PWM 3번 핀에 LED를 연결하였습니다.
+이는 p5.js에서 슬라이더를 활용해 PWM 3번 핀에 연결한 LED의 밝기를 조절하기 위함입니다.
+<img width="834" height="578" alt="image" src="https://github.com/user-attachments/assets/6f59235b-497e-45b2-8512-ac1bc216b19c" />
+
+
 
 https://github.com/user-attachments/assets/07e612a6-f353-4845-a816-658ad43ff628
 
