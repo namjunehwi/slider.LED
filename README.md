@@ -14,3 +14,5 @@
 https://github.com/user-attachments/assets/07e612a6-f353-4845-a816-658ad43ff628
 
 https://github.com/user-attachments/assets/c5fe73d8-9e52-4cd5-a48b-f3178b52c98f
+
+<br><br> 코드는 위에 올려둔 p5.js_assignments(arduino)와 slider.LED(p5.js)에서 확인 가능합니다.
