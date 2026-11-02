@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Arduino Uno R3 Web Serial</title>
+    <script src="https://cdn.jsdelivr.net/npm/p5@1.11.11/lib/p5.min.js"></script>
+    <style>
+      body{margin:0;padding:16px;background:#f2f6fa;font-family:sans-serif}canvas{display:block;max-width:100%;height:auto!important}button{margin-top:12px;padding:12px 20px;cursor:pointer}
+    </style>
+  </head>
+  <body>
+    <main></main>
+    <!-- 통신 도우미를 메인 스케치보다 먼저 불러옵니다. -->
+    <script src="serial-helper.js"></script>
+    <script src="sketch.js"></script>
+  </body>
+</html>
